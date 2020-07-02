@@ -1,0 +1,14 @@
+<%- include('partials/header')%>
+<div class="jumbotron jumbotron">
+    <h1 class="display-3"><%= title%></h1>
+    <p class="lead">All users:<strong>/api/users</strong><br/>
+    User by card number:<strong>/api/user/###</strong>(example/api/user/676776)</p>
+    <hr class="my-4">
+    <p class="lead">
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+            <a class="btn btn-primary btn-lg" href="/register" role="button">Register</a>
+            <a class="btn btn-primary btn-lg" href="/api" role="button">Api</a>
+    </p>
+</div>
+<%-include('partials/footer')%>

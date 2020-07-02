@@ -1,0 +1,29 @@
+{
+  "name": "bankapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "ronald",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-redirect": "^1.2.2",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,25 @@
+<div class="jumbtron jumbtron-fluid">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <p class="lead">
+                <ul class="list-group">
+                    <li class="list-group-item-active">Account details</li>
+                    <li class="list-group-item"><strong>card holder</strong><%=userdata.name></li>
+                    <li class="list-group-item"><strong>card number</strong><%=userdata.card</li>
+                    <li class="list-group-item"><strong>email</strong><%=userdata.email></li>
+                    <li class="list-group-item"><strong>available balance</strong><%=userdata.money></li>
+                </ul>
+            </p>
+            <p class="lead">
+		    	<div class="btn-group btn-block btn-group-lg" role="group" aria-label="Actions">
+				  <a href="/member/withdraw" type="button" class="btn btn-secondary">Withdraw</a>
+				  <a href="/member/deposit"type="button" class="btn btn-secondary">Deposit</a>
+				  <a href="/member/logout"type="button" class="btn btn-secondary">Logout</a>
+
+        </div>
+    </div>
+
+</div>
+</div>
